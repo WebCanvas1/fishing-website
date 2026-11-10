@@ -1,13 +1,13 @@
 import { ArrowRight, Waves } from 'lucide-react';
 
-const HERO_IMAGE = '/images/sydney-fishing-sunset.jpg';
+const HERO_IMAGE = '/images/fishing-pier-sunset.webp';
 
 export default function Hero() {
   return (
     <section id="top" className="relative isolate flex min-h-[100svh] items-end overflow-hidden bg-navy">
       <img
         src={HERO_IMAGE}
-        alt="An angler fishing in Sydney Harbour at sunset, with the Harbour Bridge in the background"
+        alt="Anglers carrying fishing gear along a wooden pier beneath a golden sunset"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-[65%_center] animate-slow-zoom sm:object-center"
       />
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-navy via-navy/60 to-navy/20" />
