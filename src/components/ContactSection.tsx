@@ -1,10 +1,7 @@
-import { Clock, MapPin, Mail } from 'lucide-react';
-import ContactForm from '@/components/ContactForm';
+import { MapPin, MessageCircle } from 'lucide-react';
 
 const DETAILS = [
-  { icon: Clock, title: 'Response time', text: 'We reply within two business days.' },
   { icon: MapPin, title: 'Based in', text: 'Queensland, Australia. Trips run along the east coast.' },
-  { icon: Mail, title: 'Brand and sponsor enquiries', text: 'Select "Brand partnerships" and we will route it to the team.' },
 ];
 
 export default function ContactSection() {
@@ -17,7 +14,7 @@ export default function ContactSection() {
             Let's Talk <span className="text-ocean">Fishing</span>
           </h2>
           <p className="mt-6 text-base leading-relaxed text-charcoal/75 sm:text-lg">
-            Questions about a trip, an order or the membership? Send us a message and the crew will get back to you.
+            Questions about fishing adventures, gear or membership? Contact details will be available here soon.
           </p>
 
           <ul className="mt-10 space-y-6">
@@ -36,7 +33,13 @@ export default function ContactSection() {
         </div>
 
         <div className="lg:col-span-3">
-          <ContactForm />
+          <div className="rounded-3xl bg-white p-8 shadow-xl shadow-navy/10 ring-1 ring-navy/5 sm:p-10">
+            <MessageCircle className="h-10 w-10 text-ocean" />
+            <h3 className="mt-6 font-display text-3xl font-bold uppercase text-navy">Stay tuned</h3>
+            <p className="mt-4 text-base leading-relaxed text-charcoal/75">
+              Online enquiries are not available yet. Please check back for contact details and updates.
+            </p>
+          </div>
         </div>
       </div>
     </section>
