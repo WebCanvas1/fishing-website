@@ -1,6 +1,6 @@
 import { ArrowRight, Waves } from 'lucide-react';
 
-const HERO_IMAGE = '/images/fishing-pier-sunset.webp';
+const HERO_IMAGE = import.meta.env.BASE_URL + 'images/fishing-pier-sunset.webp';
 
 export default function Hero() {
   return (
@@ -60,3 +60,4 @@ export default function Hero() {
     </section>
   );
 }
+

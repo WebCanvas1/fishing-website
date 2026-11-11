@@ -1,7 +1,7 @@
 import { MapPin, MessageCircle } from 'lucide-react';
 
 const DETAILS = [
-  { icon: MapPin, title: 'Based in', text: 'Queensland, Australia. Trips run along the east coast.' },
+  { icon: MapPin, title: 'Based in', text: 'Queensland, Australia.' },
 ];
 
 export default function ContactSection() {
@@ -14,7 +14,7 @@ export default function ContactSection() {
             Let's Talk <span className="text-ocean">Fishing</span>
           </h2>
           <p className="mt-6 text-base leading-relaxed text-charcoal/75 sm:text-lg">
-            Questions about fishing adventures, gear or membership? Contact details will be available here soon.
+            Questions about merch, membership or sponsorship? Contact details will be available here soon.
           </p>
 
           <ul className="mt-10 space-y-6">

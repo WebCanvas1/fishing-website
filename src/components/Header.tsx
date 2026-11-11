@@ -5,8 +5,8 @@ const NAV_LINKS = [
   { label: 'Home', href: '#top' },
   { label: 'Shop', href: '#shop' },
   { label: 'Membership', href: '#membership' },
-  { label: 'Fishing Adventures', href: '#adventures' },
   { label: 'Gallery', href: '#gallery' },
+  { label: 'Sponsors', href: '#sponsors' },
   { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ];
