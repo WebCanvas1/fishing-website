@@ -1,3 +1,4 @@
+import MembershipForm from './MembershipForm';
 import { Check, Fish } from 'lucide-react';
 
 const perks = ['Behind-the-scenes fishing videos', 'Member catch reports', 'Early access to merch drops'];
@@ -17,7 +18,7 @@ export default function MembershipTeaser() {
             </li>
           ))}
         </ul>
-        <p className="mt-8 text-sm text-white/75">Membership price and sign-up link to be confirmed.</p>
+        <MembershipForm />
       </div>
     </section>
   );

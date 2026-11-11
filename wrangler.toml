@@ -1,0 +1,8 @@
+name = "fishing-website"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "MEMBERSHIP_DB"
+database_name = "fishing-membership-enquiries"
+database_id = "d6a8f78a-bf64-4c8e-9de4-71a030867044"
